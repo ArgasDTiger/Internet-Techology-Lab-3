@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore World</title>
+    <link rel="stylesheet" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rubik:100,300,400">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+        <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <li>|</li>
+            <li><div class="dropdown"><a class="announcements-nav"href="announcements.html">Announcements <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-content">
+              <a href="announcements.html#Europe">Europe</a>
+              <a href="announcements.html#Asia">Asia</a>
+              <a href="announcements.html#Oceania">Oceania</a>
+              <a href="announcements.html#North America">North America</a>
+          </div></li>
+            <li>|</li>
+            <a href="poll.html"><li>Poll</li></a>
+            <li>|</li>
+            <a href="purchase.html"><li>Purchase</li></a>
+        </ul>  
+    </nav> 
+</header>
+
+<main class="container main-body">
+    <h1>Purchase the ticket and make your dream real!</h1>
+    <div class="col-2-3 purchase-description">
+        <h2>Purchase a Tour Ticket</h2>
+        <h3>Prices Start From $499</h3>
+        <p>Purchase your tour package using the form to the right. Multiple packages may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
+        
+        <h3>Why Choose Us?</h3>
+
+        <ul class="why-choose-us">
+          <li>Over twenty world-class destinations</li>
+          <li>Up to 2 weeks of All-Inclusive vacation</li>
+          <li>Experience the trip of a lifetime</li>
+        </ul>
+    </div><!--
+    --><div class="col-1-3">
+        <form class="purchase-description" action="#" method="post">
+
+            <fieldset>
+              <label>
+                First Name
+                <input type="text" name="name" placeholder="First name" required>
+                </label>
+              <label>
+                Last Name
+                <input type="text" name="surename" placeholder="Last name" required>
+              </label>
+  
+              <label>
+                Email
+                <input type="email" name="email" placeholder="Email address" required>
+              </label>
+  
+              <label>
+                Number of Tickets
+                <select name="quantity" required>
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </label>
+  
+            </fieldset>
+  
+            <input class="purchase-btn" type="submit" name="submit" value="Purchase">
+  
+          </form>
+    </div>
+    <div id="back-to-top" onclick="scrollToTop(1000);">
+      <img src="assets/img/arrow_up.png" alt="Go to top">
+  </div>
+  
+  
+  <script src="assets/scripts/script.js"></script>
+</main>
+
+<footer class="container foot-coontainer">
+    <p class="copyright">&copy; 2023 - Explore World</p>
+    <nav class="footer-nav">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="announcements.html"><li>Announcements</li></a>
+            <a href="poll.html"><li>Poll</li></a>
+            <a href="purchase.html"><li>Purchase</li></a>
+        </ul>
+        
+    </nav>
+</footer>
+</body>
+</html>

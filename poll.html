@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore World</title>
+    <link rel="stylesheet" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rubik:100,300,400">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="nav">
+            <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <li>|</li>
+                <li><div class="dropdown"><a class="announcements-nav"href="announcements.html">Announcements <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                  <a href="announcements.html#Europe">Europe</a>
+                  <a href="announcements.html#Asia">Asia</a>
+                  <a href="announcements.html#Oceania">Oceania</a>
+                  <a href="announcements.html#North America">North America</a>
+              </div></li>
+                <li>|</li>
+                <a href="poll.html"><li>Poll</li></a>
+                <li>|</li>
+                <a href="purchase.html"><li>Purchase</li></a>
+            </ul>  
+        </nav> 
+    </header>
+
+<main class="container main-body">
+    <h1>Poll</h1>
+    <form class="poll" action="#" method="post">
+        <fieldset>
+            <legend>Did you like your journey?</legend>
+            <input type="radio" id="yes" name="journey" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="journey" value="no">
+            <label for="no">No</label><br>
+            <input type="radio" id="not-tried" name="journey" value="not-tried">
+            <label for="not-tried">Didn't try yet</label>
+        </fieldset>
+        <input  type="submit" value="Submit">
+    </form>
+    <form class="poll" action="#" method="post">
+        <fieldset>
+            <legend>What place did you enjoy the most?</legend>
+        
+            <input type="radio" id="Bulgaria" name="country" value="Bulgaria">
+            <label for="Bulgaria">Bulgaria</label><br>
+        
+            <input type="radio" id="Greece" name="country" value="Greece">
+            <label for="Greece">Greece</label><br>
+        
+            <input type="radio" id="Egypt" name="country" value="Egypt">
+            <label for="Egypt">Egypt</label><br>
+        
+            <input type="radio" id="Japan" name="country" value="Japan">
+            <label for="Japan">Japan</label><br>
+        
+            <input type="radio" id="NewZealand" name="country" value="New Zealand">
+            <label for="NewZealand">New Zealand</label><br>
+        
+            <input type="radio" id="France" name="country" value="France">
+            <label for="France">France</label><br>
+        
+            <input type="radio" id="Italy" name="country" value="Italy">
+            <label for="Italy">Italy</label><br>
+        
+            <input type="radio" id="Canada" name="country" value="Canada">
+            <label for="Canada">Canada</label><br>
+        
+            <input type="radio" id="Jamaica" name="country" value="Jamaica">
+            <label for="Jamaica">Jamaica</label><br>
+        
+            <input type="radio" id="Cuba" name="country" value="Cuba">
+            <label for="Cuba">Cuba</label><br>
+            
+        </fieldset>
+        <input type="submit" value="Submit">
+        
+    </form>
+    <div id="back-to-top" onclick="scrollToTop(1000);">
+        <img src="assets/img/arrow_up.png" alt="Go to top">
+    </div>
+    
+    
+    <script src="assets/scripts/script.js"></script>
+</main>
+
+<footer class="container foot-coontainer">
+    <p class="copyright">&copy; 2023 - Explore World</p>
+    <nav class="footer-nav">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="announcements.html"><li>Announcements</li></a>
+            <a href="poll.html"><li>Poll</li></a>
+            <a href="purchase.html"><li>Purchase</li></a>
+        </ul>
+        
+    </nav>
+</footer>
+</body>
+</html>
